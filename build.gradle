@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+group = 'ru.build'
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.postgresql:postgresql:42.6.0'
+}
